@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadoo Travel | Beautiful Destinations</title>
+    <meta name="description" content="Travel to the most beautiful destinations in the world with Jadoo.">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Jadoo</div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="hotels.html">Hotels</a>
+                <a href="login.html" class="btn-login">Login</a>
+                <a href="login.html" class="btn-signup">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-tag">Best Destinations around the world</span>
+                <h1>Travel, enjoy and live a new and full life</h1>
+                <p>Explore amazing destinations around the world with comfort and ease. Find exciting adventures,
+                    beautiful places, and unforgettable travel experiences all in one place.</p>
+
+                <div class="hero-btns">
+                    <a href="destinations.html" class="btn-primary">Find out more</a>
+                    <a href="#" class="btn-play">
+                        <span class="play-icon"><i data-lucide="play"></i></span>
+                        Play Demo
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-wrap">
+                    <style>
+                        .sticker-style {
+                            border: 12px solid #fff;
+                            border-radius: 10px;
+                            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+                            transform: rotate(4deg);
+                            transition: all 0.3s ease;
+                            aspect-ratio: 4/5;
+                            object-fit: cover;
+                        }
+
+                        .sticker-style:hover {
+                            transform: rotate(0deg) scale(1.05);
+                            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+                        }
+                    </style>
+                    <img src="https://plus.unsplash.com/premium_photo-1682096348418-dbef9b1d0add?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Travel Girl with Backpack" class="img-fluid sticker-style">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Top Selling</span>
+                <h2 class="section-title">Top Destinations</h2>
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+                    <img src="assets/images/dest_rome.png" alt="Rome, Italy" class="card-img">
+                    <div class="card-content">
+                        <div class="card-title-row">
+                            <span class="card-title">Rome, Italy</span>
+                            <span class="card-price">$5.42k</span>
+                        </div>
+                        <div class="card-meta">
+                            <i data-lucide="navigation"></i> 10 Days Trip
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/dest_london.png" alt="London, UK" class="card-img">
+                    <div class="card-content">
+                        <div class="card-title-row">
+                            <span class="card-title">London, UK</span>
+                            <span class="card-price">$4.2k</span>
+                        </div>
+                        <div class="card-meta">
+                            <i data-lucide="navigation"></i> 12 Days Trip
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/dest_bali.png" alt="Bali, Indonesia" class="card-img">
+                    <div class="card-content">
+                        <div class="card-title-row">
+                            <span class="card-title">Bali, Indonesia</span>
+                            <span class="card-price">$3.5k</span>
+                        </div>
+                        <div class="card-meta">
+                            <i data-lucide="navigation"></i> 28 Days Trip
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section py-5" style="background-color: var(--bg-light);">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <span class="section-subtitle" style="color: var(--primary-color);">Schedule</span>
+                <h2 class="section-title">Upcoming Flight Schedules</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12">
+                    <div class="table-responsive bg-white rounded-4 shadow-sm p-4">
+                        <table class="table table-hover align-middle mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th scope="col" class="py-3">Destination</th>
+                                    <th scope="col" class="py-3">Airline</th>
+                                    <th scope="col" class="py-3">Departure Date</th>
+                                    <th scope="col" class="py-3">Status</th>
+                                    <th scope="col" class="py-3 text-end">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="fw-medium">Rome, Italy</td>
+                                    <td>Alitalia</td>
+                                    <td>10:00 AM, 25 Apr</td>
+                                    <td><span class="badge bg-success rounded-pill px-3 py-2">On Time</span></td>
+                                    <td class="text-end"><button
+                                            class="btn btn-outline-warning btn-sm fw-medium rounded-3"
+                                            style="color: var(--primary-color); border-color: var(--primary-color);">Book
+                                            Now</button></td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-medium">London, UK</td>
+                                    <td>British Airways</td>
+                                    <td>02:30 PM, 25 Apr</td>
+                                    <td><span class="badge bg-warning text-dark rounded-pill px-3 py-2">Delayed</span>
+                                    </td>
+                                    <td class="text-end"><button
+                                            class="btn btn-outline-warning btn-sm fw-medium rounded-3"
+                                            style="color: var(--primary-color); border-color: var(--primary-color);">Book
+                                            Now</button></td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-medium">Bali, Indonesia</td>
+                                    <td>Garuda Indonesia</td>
+                                    <td>08:15 PM, 26 Apr</td>
+                                    <td><span class="badge bg-success rounded-pill px-3 py-2">On Time</span></td>
+                                    <td class="text-end"><button
+                                            class="btn btn-outline-warning btn-sm fw-medium rounded-3"
+                                            style="color: var(--primary-color); border-color: var(--primary-color);">Book
+                                            Now</button></td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-medium">Paris, France</td>
+                                    <td>Air France</td>
+                                    <td>06:00 AM, 27 Apr</td>
+                                    <td><span class="badge bg-success rounded-pill px-3 py-2">On Time</span></td>
+                                    <td class="text-end"><button
+                                            class="btn btn-outline-warning btn-sm fw-medium rounded-3"
+                                            style="color: var(--primary-color); border-color: var(--primary-color);">Book
+                                            Now</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Jadoo.</h3>
+                    <p>Book your trip in minute, get full Control for much longer.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Mobile</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help/FAQ</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Affilates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>More</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Airlinefees</a></li>
+                        <li><a href="#">Airline</a></li>
+                        <li><a href="#">Low fare tips</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>All rights reserved @jadoo.co</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
